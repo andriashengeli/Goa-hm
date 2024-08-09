@@ -1,9 +1,7 @@
 user_age=int(input("enter your age: "))
 if user_age <18:
-    print("you are kid")
+    print("you are young")
 
-elif user_age ==18:
-    print("you are 18 years old")
+elif user_age >18:
+    print("you are adult")
 
-else:
-    ("you are adult")
